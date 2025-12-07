@@ -1,0 +1,39 @@
+<svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Heart Shape -->
+    <path
+        d="M35 58C35 58 12 45 12 26C12 17 17 12 23.5 12C28 12 32 14.5 35 19C38 14.5 42 12 46.5 12C53 12 58 17 58 26C58 45 35 58 35 58Z"
+        fill="currentColor"
+        opacity="0.95"
+    />
+
+    <!-- Brain Wave Lines -->
+    <path
+        d="M26 28C28 26 30 26 32 28"
+        stroke="currentColor"
+        stroke-width="2.5"
+        stroke-linecap="round"
+        opacity="0.7"
+    />
+    <path
+        d="M38 28C40 26 42 26 44 28"
+        stroke="currentColor"
+        stroke-width="2.5"
+        stroke-linecap="round"
+        opacity="0.7"
+    />
+    <path
+        d="M28 36C30 38 32 38 35 35C38 38 40 38 42 36"
+        stroke="currentColor"
+        stroke-width="2.5"
+        stroke-linecap="round"
+        opacity="0.7"
+    />
+
+    <!-- Center Dot -->
+    <circle cx="35" cy="42" r="2" fill="currentColor" opacity="0.8"/>
+
+    <!-- Sparkles -->
+    <circle cx="52" cy="18" r="2.5" fill="currentColor" opacity="0.9"/>
+    <circle cx="18" cy="30" r="1.8" fill="currentColor" opacity="0.7"/>
+    <circle cx="48" cy="38" r="1.5" fill="currentColor" opacity="0.6"/>
+</svg>
