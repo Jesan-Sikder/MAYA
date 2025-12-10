@@ -124,24 +124,39 @@ cd ..
 flutter run
 ```
 
-## Project Structure
 
+## 📂 Project Diagram
 ```
 lib/
-├── main.dart                 # App entry point
+├── config/
+│   ├── app_config.dart
+│   └── theme_config.dart
 ├── models/
-│   └── message.dart          # Message data model
+│   └── message.dart                  # Message data model
 ├── screens/
-│   ├── login_screen.dart     # Login UI
-│   ├── email_auth_screen.dart # Email authentication
-│   └── chat_screen.dart      # Chat interface
+│   ├── chat_screen.dart             # Login UI
+│   ├── email_auth_screen.dart       # Email authentication
+│   └── login_screen.dart            # Chat interface
 ├── services/
-│   ├── auth_service.dart     # Firebase authentication
-│   └── gemini_service.dart   # Gemini AI integration
-└── widgets/
-    ├── message_bubble.dart   # Chat message UI
-    └── chat_input. dart       # Message input field
+│   ├── auth_service.dart                # Firebase authentication
+│   └── gemini_service.dart             # Gemini AI integration
+├── utils/
+│   ├── constants.dart
+│──── widgets/
+│       ├── animated_background.dart
+│       ├── chat_input.dart                # Message input field
+│       ├── message_bubble.dart            # Chat message UI
+│       ├── premium_button.dart
+│       └── theme_toggle.dart
+└── main.dart                       # App entry point
 ```
+
+**Notes:**
+- `widgets/` is located inside `utils/`.
+- Utility files like `constants.dart` are inside `utils/`.
+- Configuration files are in the `config/` directory.
+- All widget-related Dart files (e.g., `chat_input.dart`, `message_bubble.dart`) are inside `utils/widgets/`.
+
 
 ## Security Notes
 
